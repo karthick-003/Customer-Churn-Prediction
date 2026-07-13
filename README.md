@@ -55,3 +55,31 @@ Developed custom business measures to calculate critical KPIs dynamically:
 2. Download the source dataset directly from Kaggle.
 3. Execute the Python notebook to generate the cleaned, semicolon-separated export file (`Fixed_Churn_Data.csv`).
 4. Open the `Fixed_Churn_Data.csv` inside Power BI Desktop using a Semicolon delimiter to view or edit the dashboard structure.
+
+## 📂 Project Repository Structure
+
+```text
+Telco-Customer-Churn-Analysis/
+│
+├── data/
+│   ├── raw/
+│   │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv    
+│   └── processed/
+│       └── Fixed_Churn_Data.csv                    
+│
+├── notebooks/
+│   └── Telco_Customer_Churn_Analysis.ipynb         
+│
+├── dashboard/
+│   ├── Telco_Customer_Churn_Dashboard.pbix        
+│   └── Dashboard_Screenshot.png                   
+│
+├── .gitignore                                     
+└── README.md                                      
+```
+
+## 📊 Interactive Dashboard Overview
+
+Below is the finalized, presentation-ready layout of the business intelligence dashboard built within Power BI:
+
+![Telco Customer Churn Dashboard](dashboard/Dashboard_Screenshot.png)
